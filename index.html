@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Q2 SkillsTest</title>
+</head>
+<body>
+    <form class="container">
+        <h1>Non-Metal Elements</h1>
+        <p class="subtitle">Periodic Table Information Finder</p>
+
+        <div class="inst">
+            <p>Enter the symbol of a non-metal element in the Periodic Table.</p>
+        </div>
+
+        <input type="text" id="symbol" placeholder="Enter element symbol">
+        <button type="button" id="btnchk">Check Details</button>
+
+        <h3>Result</h3>
+        <div class="result">
+            <p id="result">The information of the element will appear here.</p>
+        </div>
+    </form>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
